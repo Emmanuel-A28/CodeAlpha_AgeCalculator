@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #aeaeaee3;
+    display: flex;
+    justify-content: center; /* horizontally */
+    align-content: center;
+    height: 100vh;
+    align-items: center; /* vertically */
+}
+
+.container {
+    background: #f3f3f3e2;
+    width: calc(100% - 30px);
+    max-width: 500px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(8,0,5,0.5);
+} 
+
+h1 {
+    text-align: center;
+    color: #0e0e0fd1;
+}
+
+#age-form {
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+input[type="date"] {
+    padding: 5px;
+    width: calc(100% - 40px);
+    border: 2px solid #0e0e0fd1;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+input[type="date"]:hover{
+    border: 3px solid rgba(60,60,60,0.5);
+    background-color: rgba(189,187,187,0.5);
+}
+
+input[type="date"]:focus{
+    border: 3px solid rgba(120,120,120,0.7);
+    
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#calc-btn {
+    width: 50%;
+    font-weight: 10px;
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(211,211,211,1);
+}
+
+#calc-btn:hover {
+    background: #474747dd;
+    color: #e5e5e5;
+    box-shadow: 0px 5px 10px rgba(64,64,64,1);
+}
+
+#result {
+    font-size: 1.5rem;
+    font-weight: 12px;
+    color: #0e0e0fd1;
+    padding: 10px;
+    margin: 20px;
+    
+}
+
+#buttons {
+    display: none;
+    justify-content: center;
+    cursor: pointer;
+    
+    
+    
+}
+
+#see-more-btn,
+#reset-btn {
+    height: auto;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    display: flex;
+}
+
+
+#reset-btn:hover {
+    color: red;
+    background: white;
+
+}
+
+
+#see-more-btn:hover {
+    color: green;
+    background: white;
+   
+}
+#see-more-btn {
+    background-color: green;
+    
+}    
+
+#reset-btn {
+    
+    background-color: red;
+    
+    
+}

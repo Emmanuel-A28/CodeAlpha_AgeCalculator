@@ -1,0 +1,30 @@
+<!DOCTYPE html</>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>age calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <form id="age-form">
+             <label for="birthdate">Enter your birth date: </label>
+        <input type="date" id="birthdate" name="birthdate" required>
+        </form>
+       
+        <button id="calc-btn">Calculate Age <i class="fa-solid fa-play"></i></button>
+        
+        <div id="result">
+            <p id="display-result"> </p>
+            <div id="buttons">
+                <div id="see-more"><button id="see-more-btn"><i>See more...</i></button></div>
+            <div id="reset"><button id="reset-btn">Reset <i class="fa-solid fa-rotate-right"></i></button></div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
