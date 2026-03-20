@@ -11,3 +11,7 @@ Technology used:
 This web validates future age, present day and empty input and also detects birthday. 
 
 It has a "see more" button to view more details about the age (months and days) and also a reset button to clear everything. 
+aA
+check it out:
+
+https://emmanuel-a28.github.io/CodeAlpha_AgeCalculator/
